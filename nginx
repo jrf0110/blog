@@ -1,0 +1,6 @@
+server {
+  server_name blog.j0.hn
+  location / {
+    proxy_pass http://johndotawesome.tumblr.com
+  }
+}
